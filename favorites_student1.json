@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Geyimlər",
+    "id": 2,
+    "name": "Hoodie",
+    "price": 45.0
+  },
+  {
+    "category": "Kitablar",
+    "id": 2,
+    "name": "Clean Code",
+    "price": 55.0
+  },
+  {
+    "category": "Elektronika",
+    "id": 3,
+    "name": "Siçan",
+    "price": 15.0
+  },
+  {
+    "category": "Aksesuarlar",
+    "id": 3,
+    "name": "Cüzdan",
+    "price": 25.0
+  }
+]

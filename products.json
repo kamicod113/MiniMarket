@@ -1,0 +1,22 @@
+﻿{
+  "Clothes": [
+    { "id": 1, "name": "T-Shirt", "price": 12.50 },
+    { "id": 2, "name": "Hoodie", "price": 45.00 },
+    { "id": 3, "name": "Jeans", "price": 60.00 }
+  ],
+  "Electronics": [
+    { "id": 1, "name": "Qulaqlıq", "price": 35.00 },
+    { "id": 2, "name": "Powerbank", "price": 25.00 },
+    { "id": 3, "name": "Siçan", "price": 15.00 }
+  ],
+  "Books": [
+    { "id": 1, "name": "Algorithms 101", "price": 20.00 },
+    { "id": 2, "name": "Clean Code", "price": 55.00 },
+    { "id": 3, "name": "Python Basics", "price": 30.00 }
+  ],
+  "Accesesories": [
+    { "id": 1, "name": "Saat", "price": 80.00 },
+    { "id": 2, "name": "Kəmər", "price": 18.00 },
+    { "id": 3, "name": "Cüzdan", "price": 25.00 }
+  ]
+}

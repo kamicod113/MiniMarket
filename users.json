@@ -1,0 +1,37 @@
+﻿[
+  {
+    "username": "admin",
+    "password": "123",
+    "balance": 1000.0,
+    "failed_attempts": 0,
+    "lock_until": null
+  },
+  {
+    "username": "medish",
+    "password": "456",
+    "balance": 700.0,
+    "failed_attempts": 0,
+    "lock_until": null
+  },
+  {
+    "username": "MFerc",
+    "password": "789",
+    "balance": 550.0,
+    "failed_attempts": 0,
+    "lock_until": null
+  },
+  {
+    "username": "mahis",
+    "password": "1234",
+    "balance": 100.5,
+    "failed_attempts": 0,
+    "lock_until": null
+  },
+  {
+    "username": "kamis",
+    "password": "pass123",
+    "balance": 50.5,
+    "failed_attempts": 0,
+    "lock_until": null
+  }
+]

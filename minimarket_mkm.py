@@ -258,7 +258,7 @@ while tries > 0 and not found:
                                 if len(basket) == 0:
                                     print("Your basket is empty.")
                                 else:
-                                    amountbasket = sum(item["Linetotal"] for item in basket)
+                                    amountbasket = sum(item["linetotal"] for item in basket)
                                     if balance >= amountbasket:
                                      balance -= amountbasket
                                      user["balance"] = balance
@@ -302,19 +302,22 @@ while tries > 0 and not found:
 
                 elif selectednumber == "10":
                 
-                    increasingamount = int(input("Write the amount you want to add: "))
-                    balance = balance + increasingamount
-                    user["balance"] = balance 
-                    print("Balance increased succesfully")
-                    print("Your balance: " , balance)
+                    increasingamount = input("Write the amount you want to add: ")
+                    if float(increasingamount) != increasingamount:
+                        print("You must enter only number : bill and coin ")
+                    else:
 
-                    f = open(users_path, "w", encoding="utf-8-sig")
-                    json.dump(users, f, indent=2)
-                    f.close()
+                        user["balance"] = balance 
+                        print("Balance increased succesfully")
+                        print("Your balance: " , balance)
 
-                    f = open(history_file, "a", encoding="utf-8")
-                    f.write(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Increase Balance - Amount: {balance} AZN")
-                    f.close()
+                        f = open(users_path, "w", encoding="utf-8-sig")
+                        json.dump(users, f, indent=2)
+                        f.close()
+
+                        f = open(history_file, "a", encoding="utf-8")
+                        f.write(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Increase Balance - Amount: {balance} AZN")
+                        f.close()
 
                 elif selectednumber == "11":
                     print("Your purchases:", purchases)

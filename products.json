@@ -2,21 +2,31 @@
   "Clothes": [
     { "id": 1, "name": "T-Shirt", "price": 12.50 },
     { "id": 2, "name": "Hoodie", "price": 45.00 },
-    { "id": 3, "name": "Jeans", "price": 60.00 }
+    { "id": 3, "name": "Jeans", "price": 60.00 },
+    { "id": 4, "name": "Trousers", "price": 55.50},
+    { "id": 5, "name": "Coat", "price": 270.99}
   ],
   "Electronics": [
-    { "id": 1, "name": "Qulaqlıq", "price": 35.00 },
+    { "id": 1, "name": "Headphones", "price": 35.00 },
     { "id": 2, "name": "Powerbank", "price": 25.00 },
-    { "id": 3, "name": "Siçan", "price": 15.00 }
+    { "id": 3, "name": "Mouse", "price": 15.00 },
+    { "id": 4, "name": "Keyboard", "price": 199.00},
+    { "id": 5, "name": "iPhone 17 Pro", "price": 4309.00}
   ],
   "Books": [
     { "id": 1, "name": "Algorithms 101", "price": 20.00 },
     { "id": 2, "name": "Clean Code", "price": 55.00 },
-    { "id": 3, "name": "Python Basics", "price": 30.00 }
+    { "id": 3, "name": "Python Basics", "price": 30.00 },
+    { "id": 4, "name": "Farewell to Arms", "price": 6.50 },
+    { "id": 5, "name": "For Whom The Bell Tolls", "price": 7.99},
+    { "id": 6, "name": "The Old Man and The Sea", "price": 3.99 },
+    { "id": 7, "name": "To Have and Have Not", "price": 5.59}
   ],
-  "Accesesories": [
-    { "id": 1, "name": "Saat", "price": 80.00 },
-    { "id": 2, "name": "Kəmər", "price": 18.00 },
-    { "id": 3, "name": "Cüzdan", "price": 25.00 }
+  "Accessories": [
+    { "id": 1, "name": "Watch", "price": 80.00 },
+    { "id": 2, "name": "Belt", "price": 18.00 },
+    { "id": 3, "name": "Wallet", "price": 25.00 },
+    { "id": 4, "name": "Bag", "price": 89.99 },
+    { "id": 5, "name": "Hat", "price": 15.75 }
   ]
 }

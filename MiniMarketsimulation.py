@@ -129,10 +129,7 @@ while a > 0:
                 increasingamount = int(input("Write the amount you want to add: "))
                 balance = balance + increasingamount
                 print("Balance increased succesfully")
-                print("Your balance: " , balance)
-                    
-
-
+                print("Your balance: " , balance)             
 
     else:
         print("Password or username is incorrect. Please enter again. Don't forget you have only 3 chances")
